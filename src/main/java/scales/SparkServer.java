@@ -22,11 +22,11 @@ public class SparkServer implements spark.servlet.SparkApplication {
         objectRegistration(); //Starts the Objectify service and registers classes with the Objectify Service
 
         /*Testing Methods*/
-        get("/", (req, res) -> "Testing");
-        get("/hello3", (req, res) -> "Testing a route");
-        get("/t", (req, res) -> Inventory.fetchBySKU("12345").itemToJson()+"TEST");
-        get("/testUpdate", (req, res) -> testUpdate());
-        get("/test", (req,res) -> objectifyTesting());
+//        get("/", (req, res) -> "Testing");
+//        get("/hello3", (req, res) -> "Testing a route");
+//        get("/t", (req, res) -> Inventory.fetchBySKU("12345").itemToJson()+"TEST");
+//        get("/testUpdate", (req, res) -> testUpdate());
+//        get("/test", (req,res) -> objectifyTesting());
 
         /*
         API Endpoints
