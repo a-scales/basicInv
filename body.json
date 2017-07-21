@@ -1,0 +1,14 @@
+{
+  "sku": "12344",
+  "upc": "12344",
+  "name": "testMfr",
+  "color": "BLK",
+  "size": "",
+  "desc": "Test",
+  "location": "1",
+  "bin": "5",
+  "quantityOnHand": 100,
+  "purchasePrice": 2.99,
+  "salePrice": 5.99,
+  "msrp": 5.99
+}
