@@ -1,24 +1,10 @@
-appengine-skeleton
+Basicinv Cloud Inventory
 ==================
+The basicinv cloud inventory application provides a backend platform and api for inventory management. It is designed to run on Google's App Engine and take advantage of the NoSql Datastore.
 
-This is a generated application from the appengine-skeleton archetype.
-
-See the [Google App Engine standard environment documentation][ae-docs] for more
-detailed instructions.
-
-[ae-docs]: https://cloud.google.com/appengine/docs/java/
-
-
-* [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* [Maven](https://maven.apache.org/download.cgi) (at least 3.5)
-* [Google Cloud SDK](https://cloud.google.com/sdk/) (aka gcloud)
-
-## Setup
-
-    gcloud init
-    gcloud auth application-default login
 
 ## Maven
+This file is made for the google app engine. In order to delpoy or run the application, use the following.
 ### Running locally
 
     mvn appengine:run
